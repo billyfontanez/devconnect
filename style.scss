@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+
+.navigation-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+    background-color: #161616;
+    .nav-logo{
+        margin-left: 2vw;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+    }
+
+    .nav-links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+        margin-left: 15vw;
+        margin-right: 5vw;
+
+        .nav-link a{
+            text-decoration: none;
+            color: white;
+            font-size: 3.5vh;
+            font-family: 'Lato', sans-serif;
+        }
+    }
+}
