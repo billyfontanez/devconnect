@@ -63,7 +63,7 @@ body{
     }
 
     .contact-us-button{
-        background-color: rgb(46, 189, 236);
+        background-color: #8c52ff;
         font-size: 2em;
         font-weight: 900;
         color: white;
@@ -71,5 +71,71 @@ body{
         padding: 1.5% 2.5%;
         border: 1px solid transparent;
 
+    }
+}
+
+.services-container{
+    display: grid;
+    grid-template-rows: .5fr 1fr 1fr;
+
+    .title{
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+
+        font-size: 4em;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        color: #38b6ff;
+    }
+
+    .bottom-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vw;
+        margin: 0vw 5vw 0vw 5vw;
+    }
+
+    background-color: #161616;
+    color: white;
+}
+
+.content-title{
+    font-size: 1.4em;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 1.6em;
+}
+
+.social-container{
+    background-color: black;
+    .social-title{
+        color: #38b6ff;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 4.5em;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icons i{
+        color: #8c52ff;
+        font-size: 2em;
     }
 }

@@ -56,11 +56,68 @@ body {
   font-weight: bolder;
 }
 .cover-container .contact-us-button {
-  background-color: rgb(46, 189, 236);
+  background-color: #8c52ff;
   font-size: 2em;
   font-weight: 900;
   color: white;
   font-family: "Alumni Sans Pinstripe", sans-serif;
   padding: 1.5% 2.5%;
   border: 1px solid transparent;
+}
+
+.services-container {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 1fr;
+  background-color: #161616;
+  color: white;
+}
+.services-container .title {
+  display: flex;
+  justify-content: center;
+  margin-top: 1vh;
+  font-size: 4em;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  color: #38b6ff;
+}
+.services-container .bottom-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vw;
+  margin: 0vw 5vw 0vw 5vw;
+}
+
+.content-title {
+  font-size: 1.4em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-size: 1.6em;
+}
+
+.social-container {
+  background-color: black;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.social-container .social-title {
+  color: #38b6ff;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-size: 4.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-container .icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social-container .icons i {
+  color: #8c52ff;
+  font-size: 2em;
 }/*# sourceMappingURL=style.css.map */
