@@ -120,4 +120,15 @@ body {
 .social-container .icons i {
   color: #8c52ff;
   font-size: 2em;
+}
+
+.footer {
+  background-color: #161616;
+  color: white;
+  height: 10vh;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
