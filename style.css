@@ -64,6 +64,10 @@ body {
   padding: 1.5% 2.5%;
   border: 1px solid transparent;
 }
+.cover-container .contact-us-button a {
+  color: white;
+  text-decoration: none;
+}
 
 .services-container {
   display: grid;
